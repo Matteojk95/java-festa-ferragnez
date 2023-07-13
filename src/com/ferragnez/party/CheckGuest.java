@@ -11,7 +11,7 @@ public class CheckGuest {
         Scanner scan = new Scanner(System.in);
 
         System.out.println("inserisci il tuo nome");
-        String nome= scan.nextLine();
+        String nome = scan.nextLine();
         Boolean ispresent = false;
 
         for (int i = 0; i < nomiinvitati.length; i++) {
@@ -19,9 +19,9 @@ public class CheckGuest {
                 ispresent = true;
             }
         }
-        if (ispresent==true) {
+        if (ispresent == true) {
             System.out.println("puoi entrare");
-        }else {
+        } else {
             System.out.println("non puoi entrare");
         }
 
