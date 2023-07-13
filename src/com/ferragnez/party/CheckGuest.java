@@ -16,9 +16,10 @@ public class CheckGuest {
 
        int i= 0;
        while (!ispresent && i != nomiinvitati.length) {
-           if (nomiinvitati[i].equals(nome)){
-               ispresent=true;
+           if (nomiinvitati[i].equals(nome)) {
+               ispresent = true;
            }
+
        }
         if (ispresent == true) {
             System.out.println("puoi entrare");
