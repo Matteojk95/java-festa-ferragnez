@@ -27,6 +27,7 @@ public class CheckGuest {
             System.out.println("non puoi entrare");
         }
     }
+
 }
 
 
