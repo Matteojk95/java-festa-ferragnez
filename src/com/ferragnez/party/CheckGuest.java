@@ -14,17 +14,17 @@ public class CheckGuest {
         String nome = scan.nextLine();
         Boolean ispresent = false;
 
-        for (int i = 0; i < nomiinvitati.length; i++) {
-            if (nomiinvitati[i].equals(nome)) {
-                ispresent = true;
-            }
-        }
+       int i= 0;
+       while (!ispresent && i != nomiinvitati.length) {
+           if (nomiinvitati[i].equals(nome)){
+               ispresent=true;
+           }
+       }
         if (ispresent == true) {
             System.out.println("puoi entrare");
         } else {
             System.out.println("non puoi entrare");
         }
-
     }
 }
 
